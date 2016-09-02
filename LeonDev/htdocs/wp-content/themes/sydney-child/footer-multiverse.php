@@ -28,12 +28,6 @@
 
 <?php wp_footer(); ?>
 
-		<!-- Scripts -->
-			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/jquery.min.js"></script>
-			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/jquery.poptrox.min.js"></script>
-			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/skel.min.js"></script>
-			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/main.js"></script>
+		
 </body>
 </html>

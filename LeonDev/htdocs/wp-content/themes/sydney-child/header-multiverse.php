@@ -12,7 +12,7 @@
 <title>Multiverse by HTML5 UP</title>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/assets/css/main.css" />
+
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <?php if ( ! function_exists( 'has_site_icon' ) || ! has_site_icon() ) : ?>
@@ -20,8 +20,16 @@
 		<link rel="shortcut icon" href="<?php echo esc_url(get_theme_mod('site_favicon')); ?>" />
 	<?php endif; ?>
 <?php endif; ?>
-
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri();?>/assets/css/main.css" />
+
+<!-- Scripts -->
+			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/jquery.min.js"></script>
+			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/jquery.poptrox.min.js"></script>
+			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/skel.min.js"></script>
+			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="<?php echo get_stylesheet_directory_uri();?>/assets/js/main.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
